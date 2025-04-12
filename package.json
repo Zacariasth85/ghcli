@@ -1,0 +1,28 @@
+{
+  "name": "github-cli",
+  "version": "1.0.0",
+  "description": "Ferramenta de linha de comando para listar e criar repositórios no GitHub",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "ghcli": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "github",
+    "cli",
+    "nodejs",
+    "repos"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "inquirer": "^12.5.2"
+  }
+}
